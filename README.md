@@ -1,2 +1,2 @@
 # SimpleMVC
-This is an example of MVC
+This is an example of MVC.
