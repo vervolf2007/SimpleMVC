@@ -34,5 +34,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+INSERT INTO `users` (`id`, `name`, `pass`, `session_id`) VALUES
+(1,	'admin',	'123',	'');
 
--- 2020-06-29 15:45:25
+-- 2020-06-29 15:46:51
