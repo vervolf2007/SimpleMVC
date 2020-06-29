@@ -25,4 +25,14 @@ INSERT INTO `tasks` (`id`, `name`, `email`, `text`, `status`, `edited`) VALUES
 (20,	'Имя пользователя',	'email@test.ru',	'фыыфввыыфв',	0,	0),
 (21,	'Сидоров Вади Валерьянович',	'test@test.ru',	'Проверка. Текст проверки\r\nalert(‘test’);\r\n1234',	1,	1);
 
--- 2020-06-29 15:18:49
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `pass` varchar(255) NOT NULL,
+  `session_id` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+-- 2020-06-29 15:45:25
